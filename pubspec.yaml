@@ -1,0 +1,45 @@
+name: flutter_csgo_api
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  bloc: ^8.1.3
+  dio: ^5.4.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.4
+  flutter_inset_box_shadow: ^1.0.8
+  flutter_widget_from_html: ^0.14.11 
+  freezed_annotation: ^2.4.1
+  get_it: ^7.6.7
+  injectable: ^2.3.2
+  gradient_borders: ^1.0.0
+  json_annotation: ^4.8.1
+  retrofit: ^4.1.0
+  mocktail: ^1.0.3
+  bloc_test: ^9.1.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner: ^2.4.8
+  json_serializable: ^6.7.1
+  freezed: ^2.4.7
+  retrofit_generator: ^8.1.0
+  injectable_generator: ^2.4.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: DoHyeon
+      fonts: 
+        - asset: fonts/DoHyeon-Regular.ttf 
